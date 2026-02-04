@@ -156,9 +156,9 @@ void autonomo24() {
     chassis.pid_odom_set(8_in, DRIVE_SPEED, true);
     chassis.pid_wait();
 
-       //SE ALEJA 8"
-    chassis.pid_odom_set(-18_in, DRIVE_SPEED, true);
-    chassis.pid_wait();
+       //SE ESTACIONA 8"
+    //chassis.pid_odom_set(-18_in, DRIVE_SPEED, true);
+    //chassis.pid_wait();
 
     
 }
