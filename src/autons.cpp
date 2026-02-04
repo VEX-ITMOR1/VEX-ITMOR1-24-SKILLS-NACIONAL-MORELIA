@@ -153,7 +153,7 @@ void autonomo24() {
     /////////////////////////////////////vA HACIA ADELANTE PARA AGARRAR VUELO////////////////////////////////////////////////////////////
 
     //SE ALEJA 8"
-    chassis.pid_odom_set(8_in, DRIVE_SPEED, true);
+    chassis.pid_odom_set(10_in, DRIVE_SPEED, true);
     chassis.pid_wait();
 
        //SE ESTACIONA 8"
